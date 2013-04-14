@@ -1,0 +1,437 @@
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+
+
+
+#landingPage-paper{
+	height: 720px;
+	margin:0px;
+	padding:0px;
+	background: url(/static/img/landingPage/main-paper-bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
+body {
+	margin:0px;
+	padding:0px;
+	background: url(/static/img/landingPage/main-whole-paper-bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow:scroll;
+	height: 50000px;
+}
+
+
+
+/****** FONTS ******/
+.fontRaleway{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 100;
+}
+
+.fontCodystar{
+	font-family: 'Codystar', cursive;
+}
+
+.c-white{
+	color: #fff;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.s1{
+	font-size: 12px;
+}
+
+.s2{
+	font-size: 15px;
+}
+
+.s4{
+	font-size: 36px;
+}
+
+/* white background */
+div.container {
+/*      background: rgba(255, 255, 255, 0.6); */
+}
+
+h1.pageheader a, h1.pageheader a:hover {
+    font-family: 'Raleway', sans-serif;
+    font-size:65px;
+    line-height:72px;
+
+    color:red;
+    text-shadow: 3px 3px 3px #000;
+    /* text-align:center; */
+    margin: 0 auto;
+
+}
+
+p,li, label {
+    font-size:18px;
+}
+
+footer { text-align: center;}
+
+
+.span-center{
+	text-align: center;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+
+
+
+/****** CONTENTS ******/
+#enlargeBacteria{
+	position: fixed;
+	width:20px;
+	height:20px;
+	background-color: #2A9696;
+	border-radius: 500px 500px 500px 500px;
+	top:300px;
+	left:792px;
+}
+
+#transition-bg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color: #2A9696;
+	left:0px;
+}
+
+#main-dot-face{
+	position: fixed;
+}/**/
+
+#main-line-face{
+	position: fixed;
+}/**/
+
+#cellSize{
+	position: fixed;
+}
+
+#bacteriaSize{
+	position: fixed;
+}
+
+#main-paper-bg{
+	position: fixed;
+}
+
+#TenPercentHuman{
+	position: fixed;
+}
+
+#cellSizeP{
+	position: fixed;
+}
+
+#bacteriaSizeP{
+	position: fixed;
+}
+
+#human-paper-bg{
+	position: fixed;
+}
+
+#human-paper-data-wrapper{
+	position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TOP */
+#header{
+	position: fixed;
+	width:940px;
+}
+
+
+#yoonjoIs{
+	position: fixed;
+	background-color: #A7D5BC;
+	padding: 20px;
+	border-radius: 10px;
+	/* margin-top: 30px; */
+	width: 760px;
+	margin: 0 auto;
+	top:100%;
+}
+
+/* MIDDLE */
+.shadow {
+	-moz-box-shadow: 0px 0px 30px #aaa;
+	-webkit-box-shadow: 0px 0px 30px #aaa;
+	box-shadow: 0px 0px 30px #aaa;
+}
+
+
+#middle{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:0%;
+	left: 0px;
+	background-color: #fff;
+}
+
+#topBanner{
+	position: fixed;
+	width: 100%;
+	height:110px;
+	top:100%;
+	left: 0px;
+	background-color:#fff;
+}
+
+.t-title{
+	margin:10px 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.t{
+	height: 235px; 
+	width: 235px;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+
+
+#project1-1{
+	display: block;
+	/* background: url(/static/img/thumbnail/t-bw-town-in-town.jpg); */
+	background-image: url(/static/img/thumbnail-hover/t-Town-in-Town.jpg);
+}
+
+#project1-2{
+	display: block;
+/* 	background: url(/static/img/thumbnail/t-bw-thelistserve.jpg); */
+background-image: url(/static/img/thumbnail-hover/t-thelistserve.jpg);
+}
+
+#project1-3{
+	display: block;
+/* 	background: url(/static/img/thumbnail/t-bw-nostalgia.jpg); */
+background-image: url(/static/img/thumbnail-hover/t-nostalgia.jpg);
+}
+
+#project1-4{
+	display: block;
+/* 	background: url(/static/img/thumbnail/t-bw-tune-art.jpg); */
+background-image: url(/static/img/thumbnail-hover/t-tune-art.jpg);
+}
+
+
+
+.exit{
+	position:absolute;
+	top:130px;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	margin-left: 1140px;
+}
+
+/*
+.showProjectContainer{
+	width:100%;
+	height: 100%;
+	background-color:white;
+	display: none;
+	width: 1100px;
+	margin-left:auto; margin-right:auto;
+}
+*/
+
+.showProjectTitle{
+	/* padding: 130px 10px 10px 37px; */
+	padding: 130px 10px 10px 0px;
+}
+
+.showProjectText{
+/*
+	padding-left: 37px;
+	padding-right: 37px;
+*/
+}
+
+.gray{
+	color: #B2B2B2;
+}
+
+#row1{
+	position: fixed;
+	width: 940px;
+	height:100%;
+	top:100%;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#row2{
+	position: fixed;
+	width: 940px;
+	height:100%;
+	top:100%;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#row3{
+	position: fixed;
+	width: 940px;
+	height:100%;
+	top:100%;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#row4{
+	position: fixed;
+	width: 940px;
+	height:100%;
+	top:100%;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#row5{
+	position: fixed;
+	width: 940px;
+	height:100%;
+	top:100%;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#row6{
+	position: fixed;
+	width: 940px;
+	height:100%;
+	top:100%;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#aboutIcon{
+	position: relative;
+	top: 24px;
+	left: 43px;
+}
+
+#aboutYoonjoChoi{
+	position: relative;
+	top: 62px;
+	left: 60px;
+}
+
+.thumbnail-size{
+	width:235px;
+}
+
+/* BOTTOM */
+#bottom{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:110px;
+	left: 0px;
+	background-color:#E0E1E2;
+	z-index: -1;
+}
+
+#wrapBio{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:110px;
+	background-color:#E0E1E2;
+	z-index: -1;
+}
+
+
+.red{
+	background-color: red;
+}
+
+
+
+.testSize{
+	height:200px;
+}
+
+.center{
+/* 	height: 500px; */
+	width: 940px;
+	/* margin: 0 auto; */
+	margin-left:auto; margin-right:auto;
+/*
+	position: fixed;
+	left: 50%;
+	margin-left: -470px;
+*/
+
+/*
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	box-align: start;
+
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+}
+
+.box-3{
+	-webkit-box-flex: 3;
+	-moz-box-flex: 3;
+	box-flex: 3;
+*/
+}
+
+.width{
+	width:30%;
+}
+
